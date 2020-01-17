@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context="com.example.user.foodrandomizer.MainActivity"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/optionsMenu"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:visibility="gone"
+    android:layout_alignParentBottom="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/titleBox">
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/closeOptions"
+            android:text="X"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Save to"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+<androidx.recyclerview.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical"
+    android:id="@+id/recyclerViewOptions"
+    android:layout_below="@+id/titleBox"
+    >
+
+</androidx.recyclerview.widget.RecyclerView>
+</RelativeLayout>

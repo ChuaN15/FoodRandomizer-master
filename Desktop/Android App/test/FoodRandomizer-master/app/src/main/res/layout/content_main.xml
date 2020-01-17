@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<FrameLayout
+android:layout_width="match_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_height="match_parent"
+android:id="@+id/content_frames">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mainRelative">
+
+    <ProgressBar
+        android:id="@+id/progressBarRand"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.user.foodrandomizer.MainActivity"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+
+        android:layout_alignParentBottom="true" />
+
+    <Button
+        android:id="@+id/randomize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+
+        android:text="@string/randomize"
+        android:visibility="visible"
+        android:layout_marginTop="500dp"/>
+
+    <RelativeLayout
+        android:id="@+id/infoWindow"
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:background="@color/white">
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+
+            android:clipToPadding="false" />
+
+        <TextView
+            android:id="@+id/placeName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/viewPager"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Place name"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/placeName"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:text="*****" />
+
+        <TextView
+            android:id="@+id/numRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/placeName"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@id/rating"
+            android:layout_toRightOf="@id/rating"
+            android:text="153" />
+
+        <TextView
+            android:id="@+id/priceLevel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rating"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:text="$$$" />
+
+        <TextView
+            android:id="@+id/distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rating"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@id/priceLevel"
+            android:layout_toRightOf="@id/priceLevel"
+            android:text="1.3km" />
+
+        <TextView
+            android:id="@+id/opensAt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/priceLevel"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:text="Open" />
+
+        <ImageView
+            android:id="@+id/imgStar"
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:layout_below="@id/viewPager"
+            android:layout_alignParentRight="true"
+            android:layout_margin="15dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/star" />
+
+        <ImageView
+            android:id="@+id/imgStar2"
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:layout_below="@id/viewPager"
+            android:layout_alignParentRight="true"
+            android:layout_margin="15dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/star2" />
+
+        <Button
+            android:id="@+id/buttonSaveFolder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/opensAt"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="0dp"
+            android:text="Save to folder" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
+
+
+
+</FrameLayout>
