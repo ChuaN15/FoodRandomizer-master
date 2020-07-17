@@ -12,7 +12,7 @@ With the use of Google Place API, nearby restaurants that is registered on Googl
 # Restaurant Randomizer
 Randomizer function is where our application stand out from other restaurant discovery app. It can help user to decide which restaurant to go when user has no clue on it.
 
-<img src="https://github.com/ChuaN15/FoodRandomizer-master/blob/master/Desktop/Android%20App/test/FoodRandomizer-master/app/food%20randomizer.gif" alt="Drawing" style="width: 250px; height: 300px"/>
+<img src="https://github.com/ChuaN15/FoodRandomizer-master/blob/master/Desktop/Android%20App/test/FoodRandomizer-master/app/food%20randomizer.gif" alt="Drawing" style="width: 20px; height: 300px"/>
 
 # Favourite Restaurant
 Every restaurant operates at different time and we aware of that. User are able to add restaurants into different list so they can randomize through the desired list of restaurants.
