@@ -17,8 +17,6 @@ Randomizer function is where our application stand out from other restaurant dis
 # Favourite Restaurant
 Every restaurant operates at different time and we aware of that. User are able to add restaurants into different list so they can randomize through the desired list of restaurants.
 
-<img src="https://raw.githubusercontent.com/ChuaN15/FoodRandomizer-master/master/Desktop/Android%20App/test/FoodRandomizer-master/app/Screenshot_20200717_184643_com.example.user.foodrandomizer.jpg" alt="Drawing" style="width: 250px; height: 300px"/>
-
 <table><tr>
 <td> <img src="https://raw.githubusercontent.com/ChuaN15/FoodRandomizer-master/master/Desktop/Android%20App/test/FoodRandomizer-master/app/Screenshot_20200717_184752_com.example.user.foodrandomizer.jpg" alt="Drawing" style="width: 250px; height: 300px"/> </td>
 <td> <img src="https://raw.githubusercontent.com/ChuaN15/FoodRandomizer-master/master/Desktop/Android%20App/test/FoodRandomizer-master/app/Screenshot_20200717_184740_com.example.user.foodrandomizer.jpg" alt="Drawing" style="width: 250px; height: 300px"/> </td>
