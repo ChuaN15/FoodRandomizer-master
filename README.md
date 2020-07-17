@@ -1,4 +1,4 @@
-# FoodRandomizer-master
+# Food Randomizer
 Food Randomizer is a mobile application used to find nearby restaurant and discover local good foods.
 
 # Nearby Places
