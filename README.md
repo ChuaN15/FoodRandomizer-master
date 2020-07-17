@@ -15,7 +15,7 @@ Randomizer function is where our application stand out from other restaurant dis
 ![](https://github.com/ChuaN15/FoodRandomizer-master/blob/master/Desktop/Android%20App/test/FoodRandomizer-master/app/food%20randomizer.gif)
 
 # Favourite Restaurant
-Every restaurant operates at different time and we ware that. User are able to add restaurants into different list so they can randomize through the desired list of restaurants.
+Every restaurant operates at different time and we aware of that. User are able to add restaurants into different list so they can randomize through the desired list of restaurants.
 
 ![](https://raw.githubusercontent.com/ChuaN15/FoodRandomizer-master/master/Desktop/Android%20App/test/FoodRandomizer-master/app/Screenshot_20200717_184752_com.example.user.foodrandomizer.jpg) ![](https://github.com/ChuaN15/FoodRandomizer-master/blob/master/Desktop/Android%20App/test/FoodRandomizer-master/app/Screenshot_20200717_184740_com.example.user.foodrandomizer.jpg) 
 
