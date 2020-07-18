@@ -25,4 +25,4 @@ Every restaurant operates at different time and we aware of that. User are able 
 <td> <img src="https://raw.githubusercontent.com/ChuaN15/FoodRandomizer-master/master/Desktop/Android%20App/test/FoodRandomizer-master/app/Screenshot_20200717_184752_com.example.user.foodrandomizer.jpg" alt="Drawing" width="250" height="450" style="max-width:100%;"/> </td>
 <td> <img src="https://raw.githubusercontent.com/ChuaN15/FoodRandomizer-master/master/Desktop/Android%20App/test/FoodRandomizer-master/app/Screenshot_20200717_184740_com.example.user.foodrandomizer.jpg" alt="Drawing" width="250" height="450" style="max-width:100%;"/> </td>
 </tr></table>
-
+ 
