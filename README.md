@@ -1,5 +1,5 @@
 # Food Randomizer
-Food Randomizer is a mobile application used to find nearby restaurant and discover good local foods.
+Food Randomizer is a mobile application used to find nearby restaurant and discover good local foods. 
 
 # Nearby Places
 With the use of Google Place API, nearby restaurants that is registered on Google will be retrieved and displayed to users. The information of the reataurant, including photos uploaded by owner and review will show to the user as well.
