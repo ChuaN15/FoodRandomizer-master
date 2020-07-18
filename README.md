@@ -14,7 +14,7 @@ Randomizer function is where our application stand out from other restaurant dis
 
 <img src="https://github.com/ChuaN15/FoodRandomizer-master/blob/master/Desktop/Android%20App/test/FoodRandomizer-master/app/food%20randomizer.gif" width="250" height="450" style="max-width:100%;"/>
 
-# Search your favourite restaurant
+# Search with Google Places API
 <img src="https://raw.githubusercontent.com/ChuaN15/FoodRandomizer-master/master/Desktop/Android%20App/test/FoodRandomizer-master/app/Screenshot_20200719_021924_com.example.user.foodrandomizer.jpg" width="250" height="450" style="max-width:100%;"/>
 
 
